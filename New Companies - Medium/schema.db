@@ -1,0 +1,27 @@
+create table company (company_code varchar2(3), founder varchar2(100));
+create table lead_manager( lead_manager_code varchar2(10), company_code varchar2(3) );
+create table senior_manager(company_code varchar2(3), lead_manager_code varchar2(10), senior_manager_code varchar2(100));
+create table manager(company_code varchar2(3),lead_manager_code varchar2(10), senior_manager_code varchar2(100), manager_code varchar2(100));
+create table employee(company_code varchar2(3),lead_manager_code varchar2(10), senior_manager_code varchar2(100), manager_code varchar2(100), employee_code varchar2(100));
+
+insert into company values('C1','Monika');
+insert into company values('C2','Samantha');
+
+insert into lead_manager values('LM1','C1');
+insert into lead_manager values('LM2','C2');
+
+insert into senior_manager values('C1','LM1','SM1');
+insert into senior_manager values('C1','LM1','SM2');
+insert into senior_manager values('C2','LM2','SM3');
+
+insert into manager values('C1','LM1','SM1','M1');
+insert into manager values('C2','LM2','SM3','M2');
+insert into manager values('C3','LM2','SM3','M3');
+
+insert into employee values('C1','LM1','SM1','M1','E1');
+insert into employee values('C1','LM1','SM1','M1','E2');
+insert into employee values('C2','LM2','SM3','M2','E3');
+insert into employee values('C2','LM2','SM3','M3','E4');
+
+
+
