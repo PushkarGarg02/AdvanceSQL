@@ -1,0 +1,12 @@
+create table occupations (name varchar2(100), occupation varchar2(100));
+
+insert into occupations values('Samantha','Doctor');
+insert into occupations values('Jenny','Doctor');
+insert into occupations values('Ashley','Professor');
+insert into occupations values('Christeen','Professor');
+insert into occupations values('Ketty','Professor');
+insert into occupations values('Meera','Singer');
+insert into occupations values('Priya','Singer');
+insert into occupations values('Jane','Actor');
+insert into occupations values('Julia','Actor');
+insert into occupations values('Maria','Actor');
