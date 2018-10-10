@@ -16,12 +16,9 @@ insert into senior_manager values('C2','LM2','SM3');
 
 insert into manager values('C1','LM1','SM1','M1');
 insert into manager values('C2','LM2','SM3','M2');
-insert into manager values('C3','LM2','SM3','M3');
+insert into manager values('C2','LM2','SM3','M3');
 
 insert into employee values('C1','LM1','SM1','M1','E1');
 insert into employee values('C1','LM1','SM1','M1','E2');
 insert into employee values('C2','LM2','SM3','M2','E3');
 insert into employee values('C2','LM2','SM3','M3','E4');
-
-
-
