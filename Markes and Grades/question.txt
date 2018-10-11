@@ -1,0 +1,10 @@
+name, grade, marks
+Maria 10 99
+Jane 9 81
+Julia 9 88 
+Scarlet 8 78
+NULL 7 63
+NULL 7 68
+
+If grade is less than 8 then name should be null.
+order by grade in descending and then in conflicts, name in ascending order
