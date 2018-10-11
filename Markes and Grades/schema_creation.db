@@ -1,0 +1,22 @@
+
+create table Students (id number, name varchar2(100), marks number);
+create table Grades(grade number, min_mark number, max_mark number);
+
+insert into Grades values(1,0,9);
+insert into Grades values(2,10,19);
+insert into Grades values(3,20,29);
+insert into Grades values(4,30,39);
+insert into Grades values(5,40,49);
+insert into Grades values(6,50,59);
+insert into Grades values(7,60,69);
+insert into Grades values(8,70,79);
+insert into Grades values(9,80,89);
+insert into Grades values(10,90,100);
+
+
+insert into Students values(1,'Julia',88);
+insert into Students values(2,'Samantha',68);
+insert into Students values(3,'Maria',99);
+insert into Students values(4,'Scarlet',78);
+insert into Students values(5,'Ashley',63);
+insert into Students values(6,'Jane',81);
