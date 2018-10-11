@@ -1,0 +1,31 @@
+
+
+create table wands (id number, code number, coins_needed number, power number);
+create table wand_property(code number, age number, is_evil number);
+
+insert into wands values(1,4,3688,8);
+insert into wands values(2,3,9365,3);
+insert into wands values(3,3,7187,10);
+insert into wands values(4,3,734,8);
+insert into wands values(5,1,6020,2);
+insert into wands values(6,2,6773,7);
+insert into wands values(7,3,9873,9);
+insert into wands values(8,3,7721,7);
+insert into wands values(9,1,1647,10);
+insert into wands values(10,4,504,5);
+insert into wands values(11,2,1647,5);
+insert into wands values(12,5,9897,10);
+insert into wands values(13,3,4651,8);
+insert into wands values(14,2,5408,1);
+insert into wands values(15,2,6018,7);
+insert into wands values(16,4,7710,5);
+insert into wands values(17,2,8798,7);
+insert into wands values(18,2,3312,3);
+insert into wands values(19,4,7651,6);
+insert into wands values(20,5,5689,3);
+
+insert into wand_property values(1,45,0);
+insert into wand_property values(2,40,0);
+insert into wand_property values(3,4,1);
+insert into wand_property values(4,20,0);
+insert into wand_property values(5,17,0);
