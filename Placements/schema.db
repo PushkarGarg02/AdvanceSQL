@@ -1,0 +1,18 @@
+create table students (id number, name varchar2(100));
+create table friends (id number, friend_id number);
+create table packages(id number, salary number);
+
+insert into students values(1,'Ashley');
+insert into students values(2,'Samantha');
+insert into students values(3,'Julia');
+insert into students values(4,'Scarlet');
+
+insert into friends values(1,2);
+insert into friends values(2,3);
+insert into friends values(3,4);
+insert into friends values(4,1);
+
+insert into packages values(1,15.20);
+insert into packages values(2,10.06);
+insert into packages values(3,11.55);
+insert into packages values(4,12.12);
